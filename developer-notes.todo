@@ -29,8 +29,7 @@ GATSBY LIBRARY:
     ☐ Make HTML match
     ☐ Distinquish apply bottom with additional class, .lp-apply-btm
     ☐ Make .lp-apply-footer the same class
-  ☐ Revert naming convention style-guide.css to style-give.css for consistency w/ 1.2
-  ☐ DISCUSS: Where to put shared campaign-level styles that dont have a specific partial, but we may not want to be global (ie: shared-sj, shared-diq, shared-app?)
+  ☐ Should be consistent with buttons ... add .button to anchor or extend in SCSS.
    
   
   LL LAYOUTS (for MVP):
@@ -45,7 +44,7 @@ GATSBY LIBRARY:
 
   FOUNDATION:
   ☐ Some path issues
-    ☐ Foundation files > remove /library from @use -- LEAVE ALONE. This will be in the future for local compile
+    ✘ Foundation files > remove /library from @use -- LEAVE ALONE. This will be in the future for local compile @cancelled
     ☐ '/images' path needs to be 'images'
     ☐ '/fonts' path needs to be 'fonts'
 
@@ -54,6 +53,7 @@ GATSBY LIBRARY:
     ✔ Stats @done
     ✔ Testimonials @done
   ✔ fluidRem mixin and Dart Sass bug @done
+
   
 
   ACS:

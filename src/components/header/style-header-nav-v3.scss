@@ -20,71 +20,71 @@
 .main-nav {
   background: $c-black;
 
-	.center {
-		display: flex;
-		justify-content: center;
+  .center {
+    display: flex;
+    justify-content: center;
 
-		@media (max-width: $mq-400) {
-			width: 100%;
-		}
+    @media (max-width: $mq-400) {
+      width: 100%;
+    }
 
-		@media (min-width: $mq-900) {
-			justify-content: center;
-		}
-	}
+    @media (min-width: $mq-900) {
+      justify-content: center;
+    }
+  }
 
-	ul, li {
-		margin: 0;
-		padding: 0;
-	}
+  ul, li {
+    margin: 0;
+    padding: 0;
+  }
 
-	ul {
-		list-style: none;
-		display: flex;
-	}
+  ul {
+    list-style: none;
+    display: flex;
+  }
 
-	li {
-		margin: 0 1px;
+  li {
+    margin: 0 1px;
 
-		&:last-child {
-			margin-right: 0;
-		}
-	
-		&:first-child {
-			margin-left: 0;
-		}
-	}
+    &:last-child {
+      margin-right: 0;
+    }
+  
+    &:first-child {
+      margin-left: 0;
+    }
+  }
 
-	a {
-		@include fluidRem("font-size", 0.9375rem, 1.15rem);
-		@include fluidRem("padding", 0.75rem 1rem, 1rem 2rem);
-		color: rgba($c-white, .8);
-		font-weight: bold;
-		display: flex;
-		width: 100%;
-		height: 100%;
-		align-items: center;
-		text-align: center;
-		text-decoration: none;
-		line-height: 1.2;
-		border-bottom: 2px solid $c-black;
-		
-		&:hover,
-		&:focus {
-			background: rgba($c-lightGrey, .6);
-			color: $c-white;
-			text-shadow: #000 2px 2px 2px;
-			box-shadow: inset 0 -2px 0 0 rgba($c-white, .4);
-		}
+  a {
+    @include fluidRem("font-size", 0.9375rem, 1.15rem);
+    @include fluidRem("padding", 0.75rem 1rem, 1rem 2rem);
+    color: rgba($c-white, .8);
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.2;
+    border-bottom: 2px solid $c-black;
+    
+    &:hover,
+    &:focus {
+      background: rgba($c-lightGrey, .6);
+      color: $c-white;
+      text-shadow: #000 2px 2px 2px;
+      box-shadow: inset 0 -2px 0 0 rgba($c-white, .4);
+    }
 
-		&.active {
-			background: $c-lightGrey;
-			transition: none;
-			color: $c-white;
-			text-shadow: 2px 2px 2px $c-black;
-			box-shadow: inset 0 -2px 0 0 $c-white;
-		}
-	}
+    &.active {
+      background: $c-lightGrey;
+      transition: none;
+      color: $c-white;
+      text-shadow: 2px 2px 2px $c-black;
+      box-shadow: inset 0 -2px 0 0 $c-white;
+    }
+  }
 }
 
 }
