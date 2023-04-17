@@ -9,30 +9,26 @@
 // ================
 // Video Layout 1
 
-.lp-video{
+.lp-video {
   @include boxSpacing;
 
-  .video-intro{
-
-  }
-  
-  .video-container{
+  .video-container {
     @include iframeWrapper($_d-iframeWidth: 640, $_d-iframeHeight: 360); // makes iframe fit container
   }
 
-  @media (min-width: $mq-800){
-    .center{
-      display:flex;
-      align-items:center;
-      gap:2rem;
+  @media (min-width: $mq-800) {
+    .center {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
     }
 
-    .video-intro{
+    .video-intro {
       flex-basis:40%;
     }
 
-    .video-container{
-      flex-basis:60%;
+    .video-container {
+      flex-basis: 60%;
       @include fluidRem("padding-top", 16rem, 25rem, $mq-800); // video height
     }
   }
