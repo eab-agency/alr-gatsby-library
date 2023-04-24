@@ -33,10 +33,10 @@ GATSBY LIBRARY:
    
   
   LL LAYOUTS (for MVP):
-  ☐ Additional bands/layouts
-    ☐ Confirm new bands in SJ 2.0 Strategy are accounted for in Figjam and Code Library
-      ☐ Simple hero + page title?
-      ☐ Simple page intro (title + copy)
+  ✘ Additional bands/layouts @cancelled
+    ✘ Confirm new bands in SJ 2.0 Strategy are accounted for in Figjam and Code Library @cancelled
+      ✘ Simple hero + page title? @cancelled
+      ✘ Simple page intro (title + copy) @cancelled
       ✔ School content with no images, longer copy, and button @done
 
   ☐ Testimonials aren't a global token used across LPs with the same layout or same content, they are unique content and different layouts. Need to make more atomic where testimonial style is separate from layout. Dont assume it's in social proof container, it may be in thanks intro.
